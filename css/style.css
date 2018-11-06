@@ -27,3 +27,32 @@ table {
     padding: 10px; }
   table tr:nth-child(odd) td {
     background-color: #eee; }
+  width: 50%;
+}
+
+table td {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+table tr:nth-child(odd) td {
+  background-color: #eee;
+}
+
+table tr:nth-child(odd) td.bad,
+table .bad {
+  background-color: #f15d14;
+}
+
+table tr:nth-child(odd) td.half,
+table .half {
+  background-color: #f18914;
+}
+
+table tr:nth-child(odd) td.worst,
+table .worst {
+  background-color: #f11414;
+}
+
+/*# sourceMappingURL=style.css.map */
+
