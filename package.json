@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css-dev": "node-sass -w ./css/style.scss ./css/style.css --source-map true --output-style expanded",
-    "css-prod": "node-sass -w ./css/style.scss ./css/style.css --output-style compressed",
+    "css-dev": "node-sass -w ./css/style.scss ./build/style.css --source-map true --output-style expanded",
+    "css-prod": "node-sass -w ./css/style.scss ./build/style.css --output-style compressed",
     "server": "live-server --watch=./*.html,./css/*.css"
   },
   "keywords": [],

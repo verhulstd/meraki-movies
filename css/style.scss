@@ -26,4 +26,24 @@ table {
   tr:nth-child(odd) td {
     background-color: #eee;
   }
+  tr:nth-child(odd) td.bad,
+  .bad {
+    background-color: #f15d14;
+  }
+  tr:nth-child(odd) td.half,
+  .half {
+    background-color: #f18914;
+  }
+  tr:nth-child(odd) td.worst,
+  .worst {
+    background-color: #f11414;
+  }
+}
+
+.good {
+  background-color: #f1cc14;
+}
+
+.top {
+  background-color: #f1ea14;
 }
